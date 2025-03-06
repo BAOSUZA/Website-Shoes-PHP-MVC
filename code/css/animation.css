@@ -1,0 +1,93 @@
+/* .showToTop, .showToLeft, .showToZoom, .showToRight {
+    opacity: 0;
+}
+
+.active .showToTop {
+    animation: showTop .8s ease-in-out 1 forwards;
+}
+
+.active .showToLeft {
+    animation: showLeft .8s ease-in-out 1 forwards;
+}
+
+.active .showToRight {
+    animation: showRight .8s ease-in-out 1 forwards;
+}
+
+.active .showToZoom {
+    animation: showZoom .8s ease-in-out 1 forwards;
+}
+
+@keyframes showTop {
+    from {
+        opacity: 0;
+        transform: translate(0, 100px);
+    }to {
+        opacity: 1;
+        transform: translate(0, 0);
+    }
+}
+
+@keyframes showLeft {
+    from {
+        opacity: 0;
+        transform: translate(300px, 0);
+    }to {
+        opacity: 1;
+        transform: translate(0, 0);
+    }
+}
+
+@keyframes showRight {
+    from {
+        opacity: 0;
+        transform: translate(-100px, 0);
+    }to {
+        opacity: 1;
+        transform: translate(0, 0);
+    }
+}
+
+
+@keyframes showZoom {
+    from {
+        transform: scale(0);
+    }to {
+        opacity: 1;
+        transform: scale(1);
+    }
+} */
+
+.delay-02 {
+    animation-delay: 0.2s!important;
+}
+.delay-04 {
+    animation-delay: 0.4s!important;
+}
+.delay-06 {
+    animation-delay: 0.6s!important;
+}
+.delay-08 {
+    animation-delay: 0.8s!important;
+}
+.delay-1 {
+    animation-delay: 1s!important;
+}
+.delay-12 {
+    animation-delay: 1.2s!important;
+}
+.delay-14 {
+    animation-delay: 1.4s!important;
+}
+.delay-16 {
+    animation-delay: 1.6s!important;
+}
+.delay-18 {
+    animation-delay: 1.8s!important;
+}
+.delay-2 {
+    animation-delay: 2s!important;
+}
+.delay-22 {
+    animation-delay: 2s!important;
+}
