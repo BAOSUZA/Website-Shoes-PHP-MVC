@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="" method="post">
+        <input class="check" type="checkbox" name="" id="" value="1"><br>
+        <input class="check" type="checkbox" name="" id="" value="2"><br>
+        <input class="check" type="checkbox" name="" id="" value="3"><br>
+        <input class="check" type="checkbox" name="" id="" value="4"><br>
+        <input class="check" type="checkbox" name="" id="" value="5"><br>
+        <input class="checkkq" type="checkbox" name="" id=""><br>
+    </form>
+</body>
+
+</html>
+
+<script>
+    let check = document.querySelectorAll('.check');
+    let checkkq = document.querySelector('.checkkq');
+    var a = "";
+    check.forEach(element => {
+        element.onclick = function (e) {
+            if (this.checked) {
+                a = a + element.value;
+            }
+            else {
+                a = a.replace(element.value, "");
+            }
+        };
+    });
+    checkkq.addEventListener('click', () => {
+        alert(a);
+    })
+</script>
